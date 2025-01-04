@@ -19,7 +19,50 @@ data = {
     'Amsterdam': {'Country': 'Netherlands', 'Latitude': 52.3676, 'Longitude': 4.9041},
     'Rotterdam': {'Country': 'Netherlands', 'Latitude': 51.9225, 'Longitude': 4.47917},
     'Valkenburg': {'Country': 'Netherlands', 'Latitude': 50.8686, 'Longitude': 5.8233},
-    # Add the rest of your cities here...
+    
+    # UK Cities:
+    'London': {'Country': 'UK', 'Latitude': 51.5074, 'Longitude': -0.1278},
+    'Nottingham': {'Country': 'UK', 'Latitude': 52.9548, 'Longitude': -1.1581},
+    'Manchester': {'Country': 'UK', 'Latitude': 53.4808, 'Longitude': -2.2426},
+    
+    # Iran Cities:
+    'Rasht': {'Country': 'Iran', 'Latitude': 37.2824, 'Longitude': 49.5894},
+    'Mazandaran': {'Country': 'Iran', 'Latitude': 36.6349, 'Longitude': 53.0658},
+    'Astara': {'Country': 'Iran', 'Latitude': 38.4240, 'Longitude': 48.8470},
+    'Karaj': {'Country': 'Iran', 'Latitude': 35.8324, 'Longitude': 50.9919},
+    'Tehran': {'Country': 'Iran', 'Latitude': 35.6892, 'Longitude': 51.3890},
+    'Mashhad': {'Country': 'Iran', 'Latitude': 36.2605, 'Longitude': 59.6168},
+    'Yazd': {'Country': 'Iran', 'Latitude': 31.8974, 'Longitude': 54.3646},
+    'Shiraz': {'Country': 'Iran', 'Latitude': 29.5917, 'Longitude': 52.5833},
+    'Isfahan': {'Country': 'Iran', 'Latitude': 32.0590, 'Longitude': 51.6772},
+    'Qazvin': {'Country': 'Iran', 'Latitude': 36.2833, 'Longitude': 50.0042},
+    'Fardis': {'Country': 'Iran', 'Latitude': 35.7826, 'Longitude': 50.9715},
+    'Shahriar': {'Country': 'Iran', 'Latitude': 35.6636, 'Longitude': 51.1855},
+    'Qeshm': {'Country': 'Iran', 'Latitude': 26.9983, 'Longitude': 56.2705},
+    'Bandar Abbas': {'Country': 'Iran', 'Latitude': 27.1938, 'Longitude': 56.2677},
+    
+    # Belgium Cities:
+    'Brussels': {'Country': 'Belgium', 'Latitude': 50.8503, 'Longitude': 4.3517},
+    'Antwerp': {'Country': 'Belgium', 'Latitude': 51.2194, 'Longitude': 4.4025},
+    
+    # Italy Cities:
+    'Padua': {'Country': 'Italy', 'Latitude': 45.4064, 'Longitude': 11.8768},
+    'Venice': {'Country': 'Italy', 'Latitude': 45.4408, 'Longitude': 12.3155},
+    'Milan': {'Country': 'Italy', 'Latitude': 45.4642, 'Longitude': 9.1900},
+    'Verona': {'Country': 'Italy', 'Latitude': 45.4384, 'Longitude': 10.9916},
+    
+    # Additional Iran Cities:
+    'Boroujerd': {'Country': 'Iran', 'Latitude': 33.8949, 'Longitude': 48.6900},
+    'Hamedan': {'Country': 'Iran', 'Latitude': 34.7942, 'Longitude': 48.5154},
+    'Qom': {'Country': 'Iran', 'Latitude': 34.6395, 'Longitude': 50.8760},
+    'Natanz': {'Country': 'Iran', 'Latitude': 33.4021, 'Longitude': 51.8269},
+    'Abianeh': {'Country': 'Iran', 'Latitude': 33.3093, 'Longitude': 51.7348},
+    
+    # Germany Cities:
+    'Essen': {'Country': 'Germany', 'Latitude': 51.4556, 'Longitude': 7.0116},
+    'Neuss': {'Country': 'Germany', 'Latitude': 51.2020, 'Longitude': 6.6873},
+    'Düsseldorf': {'Country': 'Germany', 'Latitude': 51.2217, 'Longitude': 6.7762},
+    'Köln': {'Country': 'Germany', 'Latitude': 50.9375, 'Longitude': 6.9603},
 }
 
 # Convert the dictionary to a DataFrame
