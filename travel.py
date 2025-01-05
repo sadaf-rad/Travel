@@ -55,7 +55,7 @@ def create_map(df, percentage_visited):
 
     return m
 
-def save_and_open_map(map_obj, filename="countries_visited_map.html"):
+def save_and_open_map(map_obj, filename="index.html"):
     """Save the map as an HTML file and add a favicon."""
     map_obj.save(filename)
 
