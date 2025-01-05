@@ -21,5 +21,5 @@ To host on GitHub Pages:
 1. Push the repository to your GitHub account.
 2. Navigate to `Settings > Pages` and select the branch containing `countries_visited_map.html`.
 3. Access your map at `https://<your-username>.github.io/<repository-name>/countries_visited_map.html`.
-
+https://sadaf-rad.github.io/Travel/
 ## Have Fun Exploring! ✈️
