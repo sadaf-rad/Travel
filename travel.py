@@ -63,6 +63,8 @@ data = {
     'Neuss': {'Country': 'Germany', 'Latitude': 51.2020, 'Longitude': 6.6873},
     'Düsseldorf': {'Country': 'Germany', 'Latitude': 51.2217, 'Longitude': 6.7762},
     'Köln': {'Country': 'Germany', 'Latitude': 50.9375, 'Longitude': 6.9603},
+    'Paris': {'Country': 'France', 'Latitude': 48.8566, 'Longitude': 2.3522},
+
 }
 
 # Convert the dictionary to a DataFrame
