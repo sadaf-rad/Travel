@@ -57,16 +57,17 @@ data = {
     'Qom': {'Country': 'Iran', 'Latitude': 34.6395, 'Longitude': 50.8760},
     'Natanz': {'Country': 'Iran', 'Latitude': 33.4021, 'Longitude': 51.8269},
     'Abianeh': {'Country': 'Iran', 'Latitude': 33.3093, 'Longitude': 51.7348},
-    
-    # Germany Cities:
+    #france
+    'Paris': {'Country': 'France', 'Latitude': 48.8566, 'Longitude': 2.3522},
+    #Germany
     'Essen': {'Country': 'Germany', 'Latitude': 51.4556, 'Longitude': 7.0116},
     'Neuss': {'Country': 'Germany', 'Latitude': 51.2020, 'Longitude': 6.6873},
     'Düsseldorf': {'Country': 'Germany', 'Latitude': 51.2217, 'Longitude': 6.7762},
-    'Köln': {'Country': 'Germany', 'Latitude': 50.9375, 'Longitude': 6.9603},
-    # France
-    'Paris': {'Country': 'France', 'Latitude': 48.8566, 'Longitude': 2.3522},
+    'Köln': {'Country': 'Germany', 'Latitude': 50.9375, 'Longitude': 6.9603}
+    
 
 }
+
 
 # Convert the dictionary to a DataFrame
 df = pd.DataFrame.from_dict(data, orient='index')
