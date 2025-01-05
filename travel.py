@@ -22,7 +22,7 @@ def calculate_visited_area(df):
 
 def create_map(df, percentage_visited):
     """Create an interactive map with visited locations."""
-    m = folium.Map(location=[20, 0], zoom_start=2)
+    m = folium.Map(location=[40, 25], zoom_start=3)
     marker_cluster = MarkerCluster().add_to(m)
 
     for city, details in df.iterrows():
@@ -40,17 +40,19 @@ def create_map(df, percentage_visited):
 
     # Add a percentage marker
     percentage_popup = f"""
-        <h3 style="color: #ff69b4; font-family: 'Comic Sans MS'; text-align: center;">
-            🌍 You have visited {percentage_visited:.2f}% of the Earth! 🌍
-        </h3>
-        <p style="font-size: 16px; text-align: center; color: #ff4500;">
-            Keep exploring the world! ✈️ 🌎
-        </p>
+        <div style="width: auto; max-width: 400px; margin: auto; text-align: center; border-radius: 10px; padding: 10px; white-space: nowrap;">
+            <h3 style="color: #007BFF; font-family: 'Comic Sans MS'; text-align: center;">
+                🌍 You have visited {percentage_visited:.2f}% of the Earth! 🌍
+            </h3>
+            <p style="font-size: 16px; text-align: center; color: #28A745;">
+                Keep exploring the world! ✈️ 🌎
+            </p>
+        </div>
     """
     folium.Marker(
         location=[0, 0],
         popup=percentage_popup,
-        icon=folium.Icon(color='pink', icon='cloud')
+        icon=folium.Icon(color='blue', icon='globe')
     ).add_to(m)
 
     return m
