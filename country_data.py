@@ -58,6 +58,10 @@ def load_country_data():
 
         # France
         'Paris': {'Country': 'France', 'Latitude': 48.8566, 'Longitude': 2.3522, 'Flag': 'https://flagcdn.com/fr.svg'},
+        'Nice': {'Country': 'France', 'Latitude': 43.7102, 'Longitude': 7.2620, 'Flag': 'https://flagcdn.com/fr.svg'},
+
+        # Monaco
+        'Monaco': {'Country': 'Monaco', 'Latitude': 43.7384, 'Longitude': 7.4246, 'Flag': 'https://flagcdn.com/mc.svg'},
 
         # Germany
         'Essen': {'Country': 'Germany', 'Latitude': 51.4556, 'Longitude': 7.0116, 'Flag': 'https://flagcdn.com/de.svg'},
